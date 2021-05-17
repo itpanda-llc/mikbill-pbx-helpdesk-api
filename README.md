@@ -1,10 +1,10 @@
-# MikBill-VPBX-HelpDesk-API
+# MikBill-PBX-HelpDesk-API
 
-API для интеграции биллинговой системы ["MikBill"](https://mikbill.pro) с сервисами IP-телефонии
+API для интеграции биллинговой системы ["MikBill"](https://mikbill.pro) с PBX-системами
 
-[![Packagist Downloads](https://img.shields.io/packagist/dt/itpanda-llc/mikbill-vpbx-helpdesk-api)](https://packagist.org/packages/itpanda-llc/mikbill-vpbx-helpdesk-api/stats)
-![Packagist License](https://img.shields.io/packagist/l/itpanda-llc/mikbill-vpbx-helpdesk-api)
-![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/itpanda-llc/vpbx-virtualpbx-helpdesk-api)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/itpanda-llc/mikbill-pbx-helpdesk-api)](https://packagist.org/packages/itpanda-llc/mikbill-pbx-helpdesk-api/stats)
+![Packagist License](https://img.shields.io/packagist/l/itpanda-llc/mikbill-pbx-helpdesk-api)
+![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/itpanda-llc/mikbill-pbx-helpdesk-api)
 
 ## Ссылки
 
@@ -30,7 +30,7 @@ API для интеграции биллинговой системы ["MikBill"
 ## Установка
 
 ```shell script
-composer require itpanda-llc/mikbill-vpbx-helpdesk-api
+composer require itpanda-llc/mikbill-pbx-helpdesk-api
 ```
 
 ## Конфигурация
@@ -42,7 +42,7 @@ composer require itpanda-llc/mikbill-vpbx-helpdesk-api
 * Параметров аутентификации в ["Auth.php"](src/Auth.php)
 * Параметров сервиса ["Yandex Cloud"](https://cloud.yandex.ru) в ["Cloud.php"](src/Cloud.php)
 * Параметров сервиса ["SMSPILOT.RU"](https://smspilot.ru) в ["Pilot.php"](src/Pilot.php)
-* Путей к [конфигурационному файлу](https://wiki.mikbill.pro/billing/config_file) и интерфейсам в ["index.php"](examples/www/mikbill/admin/api/vpbx/helpdesk/index.php), предварительно размещенного в каталоге веб-сервера
+* Путей к [конфигурационному файлу](https://wiki.mikbill.pro/billing/config_file) и интерфейсам в ["index.php"](examples/www/mikbill/admin/api/pbx/helpdesk/index.php), предварительно размещенного в каталоге веб-сервера
 
 ## Примеры запросов к интерфейсу
 

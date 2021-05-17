@@ -1,17 +1,17 @@
 <?php
 
 /**
- * Файл из репозитория MikBill-VPBX-HelpDesk-API
- * @link https://github.com/itpanda-llc/mikbill-vpbx-helpdesk-api
+ * Файл из репозитория MikBill-PBX-HelpDesk-API
+ * @link https://github.com/itpanda-llc/mikbill-pbx-helpdesk-api
  */
 
-namespace Panda\MikBill\Vpbx\HelpDeskApi\Ticket\Ru;
+namespace Panda\MikBill\Pbx\HelpDeskApi\Ticket\Ru;
 
-use Panda\MikBill\Vpbx\HelpDeskApi\Ticket;
+use Panda\MikBill\Pbx\HelpDeskApi\Ticket;
 
 /**
  * Class Callback
- * @package Panda\MikBill\Vpbx\HelpDeskApi\Ticket\Ru
+ * @package Panda\MikBill\Pbx\HelpDeskApi\Ticket\Ru
  * Параметры тикета (Обратный вызов)
  */
 class Callback extends Ticket\Param

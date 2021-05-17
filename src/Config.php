@@ -1,17 +1,17 @@
 <?php
 
 /**
- * Файл из репозитория MikBill-VPBX-HelpDesk-API
- * @link https://github.com/itpanda-llc/mikbill-vpbx-helpdesk-api
+ * Файл из репозитория MikBill-PBX-HelpDesk-API
+ * @link https://github.com/itpanda-llc/mikbill-pbx-helpdesk-api
  */
 
 declare(strict_types=1);
 
-namespace Panda\MikBill\Vpbx\HelpDeskApi;
+namespace Panda\MikBill\Pbx\HelpDeskApi;
 
 /**
  * Class Config
- * @package Panda\MikBill\Vpbx\HelpDeskApi
+ * @package Panda\MikBill\Pbx\HelpDeskApi
  * Получение конфигурации
  */
 class Config
